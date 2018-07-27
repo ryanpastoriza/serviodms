@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-27 02:00:41
+// created: 2018-07-27 05:59:49
 $mod_strings = array (
   'LBL_NAME' => 'Sales Quote ID',
   'LBL_DATE_ENTERED' => 'Quote Date',
@@ -20,4 +20,5 @@ $mod_strings = array (
   'LBL_DESCRIPTION' => 'Remarks',
   'LBL_MODELDESCRIPTION_AOS_PRODUCTS_ID' => 'Model Description (related  ID)',
   'LBL_MODELDESCRIPTION' => 'Model Description',
+  'LBL_EDITVIEW_PANEL3' => 'New Panel 3',
 );
