@@ -43,6 +43,7 @@
 
 
 
+
 $app_list_strings['moduleList']['jump_Accessories'] = 'Accessories';
 $app_list_strings['moduleList']['jump_Accessory'] = 'Accessory';
 
@@ -90,6 +91,14 @@ $app_list_strings['moduleList']['jump_Accessory'] = 'Accessory';
 
 $app_list_strings['moduleList']['jump_FinancingTerm'] = 'Financing Term';
 
+$app_list_strings['moduleList']['jump_prospect_inquiry'] = 'Prospect Inquiry';
+
+$app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
+$app_list_strings['moduleList']['j41_color'] = 'Color';
+$app_list_strings['moduleList']['j41_financing_term'] = 'Financing Term';
+$app_list_strings['moduleList']['j41_lead_source'] = 'Lead Source';
+
+
 
 /**
  *
@@ -132,6 +141,7 @@ $app_list_strings['moduleList']['jump_FinancingTerm'] = 'Financing Term';
 
 
 
+
 $app_list_strings['moduleList']['jump_AutoFinancing'] = 'Auto Financing';
 $app_list_strings['moduleList']['jump_Bank'] = 'Bank';
 $app_list_strings['moduleList']['jump_ChargeList'] = 'Charge List';
@@ -143,5 +153,8 @@ $app_list_strings['moduleList']['jump_InsuranceCharges'] = 'Insurance Charges';
 $app_list_strings['moduleList']['jump_Promo'] = 'Promo';
 $app_list_strings['moduleList']['jump_Quote'] = 'Quote';
 $app_list_strings['moduleList']['jump_Scheme'] = 'Scheme';
+
+$app_list_strings['moduleList']['m20_Activities'] = 'Activities';
+$app_list_strings['moduleList']['m20_Opportunity'] = 'Opportunity';
 
 ?>
