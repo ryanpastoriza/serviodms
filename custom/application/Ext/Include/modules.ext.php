@@ -13,7 +13,6 @@ $moduleList[] = 'jump_Accessory';
 
  
  //WARNING: The contents of this file are auto-generated
-
 $beanList['jump_city'] = 'jump_city';
 $beanFiles['jump_city'] = 'modules/jump_city/jump_city.php';
 $moduleList[] = 'jump_city';
@@ -23,6 +22,9 @@ $moduleList[] = 'jump_country';
 $beanList['jump_province'] = 'jump_province';
 $beanFiles['jump_province'] = 'modules/jump_province/jump_province.php';
 $moduleList[] = 'jump_province';
+
+
+ 
  //WARNING: The contents of this file are auto-generated
 $beanList['j41_base_model'] = 'j41_base_model';
 $beanFiles['j41_base_model'] = 'modules/j41_base_model/j41_base_model.php';
