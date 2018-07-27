@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-27 04:15:24
+// created: 2018-07-27 08:50:31
 $searchFields['jump_prospect_inquiry'] = array (
   'name' => 
   array (
