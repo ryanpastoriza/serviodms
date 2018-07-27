@@ -33,7 +33,17 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_EDITVIEW_PANEL2' => 
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -43,7 +53,7 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_editview_panel2' => 
+      'lbl_editview_panel4' => 
       array (
         0 => 
         array (
@@ -87,6 +97,165 @@ array (
           array (
             'name' => 'lname_c',
             'label' => 'LBL_LNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'gender_c',
+            'studio' => 'visible',
+            'label' => 'LBL_GENDER',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'birthdate_c',
+            'label' => 'LBL_BIRTHDATE',
+          ),
+          1 => 
+          array (
+            'name' => 'marital_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MARITAL_STATUS',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'age_c',
+            'label' => 'LBL_AGE',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'mobile_number_c',
+            'label' => 'LBL_MOBILE_NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'business_phone_c',
+            'label' => 'LBL_BUSINESS_PHONE',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'alternate_contact_c',
+            'label' => 'LBL_ALTERNATE_CONTACT',
+          ),
+          1 => 
+          array (
+            'name' => 'fax_c',
+            'label' => 'LBL_FAX',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'email_address_c',
+            'label' => 'LBL_EMAIL_ADDRESS',
+          ),
+          1 => 
+          array (
+            'name' => 'tin_c',
+            'label' => 'LBL_TIN',
+          ),
+        ),
+        10 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'postal_code_c',
+            'label' => 'LBL_POSTAL_CODE',
+          ),
+          1 => 
+          array (
+            'name' => 'basic_address_c',
+            'label' => 'LBL_BASIC_ADDRESS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'inquiry_number_c',
+            'label' => 'LBL_INQUIRY_NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'payment_mode_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PAYMENT_MODE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'inquiry_date_c',
+            'label' => 'LBL_INQUIRY_DATE',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'rating_c',
+            'label' => 'LBL_RATING',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'record_owner_c',
+            'label' => 'LBL_RECORD_OWNER',
+          ),
+          1 => 
+          array (
+            'name' => 'created_on_c',
+            'label' => 'LBL_CREATED_ON',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'owning_branch_c',
+            'label' => 'LBL_OWNING_BRANCH',
+          ),
+          1 => 'date_modified',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'owning_dealer_c',
+            'label' => 'LBL_OWNING_DEALER',
           ),
           1 => '',
         ),
