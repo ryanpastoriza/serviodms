@@ -14,9 +14,7 @@ $GLOBALS['app_list_strings']['chargetype2_list']=array (
   'Insurance' => 'Insurance',
   'Service' => 'Service',
 
-<?php
-
-
+);
 
 $GLOBALS['app_list_strings']['prospect_type']=array (
 
