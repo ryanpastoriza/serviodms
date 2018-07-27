@@ -1,5 +1,8 @@
-
 <?php
+
+$app_strings['LBL_GROUPTAB1_1532672985'] = 'Dependencies';
+
+
 
 $GLOBALS['app_list_strings']['paymentmode_list']=array (
 
@@ -76,3 +79,4 @@ $GLOBALS['app_list_strings']['payment_mode_list']=array (
   'company_po' => 'Company PO',
 
 );
+
