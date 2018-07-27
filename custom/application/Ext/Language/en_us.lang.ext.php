@@ -43,6 +43,8 @@
 
 
 
+$app_list_strings['moduleList']['jump_prospect_inquiry'] = 'Prospect Inquiry';
+
 $app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
 $app_list_strings['moduleList']['j41_color'] = 'Color';
 $app_list_strings['moduleList']['j41_financing_term'] = 'Financing Term';
@@ -87,8 +89,6 @@ $app_list_strings['moduleList']['j41_lead_source'] = 'Lead Source';
  * reasonably feasible for  technical reasons, the Appropriate Legal Notices must
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
-
-
 
 $app_list_strings['moduleList']['m20_Activities'] = 'Activities';
 $app_list_strings['moduleList']['m20_Opportunity'] = 'Opportunity';
