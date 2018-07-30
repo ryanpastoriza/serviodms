@@ -241,6 +241,13 @@ $relationships = array (
     'rhs_subpanel' => 'Default',
     'lhs_module' => 'm20_Opportunity',
     'rhs_module' => 'Emails',
+  'm20_opportunity_jump_quote_1' => 
+  array (
+    'rhs_label' => 'Quote',
+    'lhs_label' => 'Opportunity',
+    'rhs_subpanel' => 'default',
+    'lhs_module' => 'm20_Opportunity',
+    'rhs_module' => 'jump_Quote',
     'relationship_type' => 'one-to-many',
     'readonly' => true,
     'deleted' => false,
@@ -249,5 +256,9 @@ $relationships = array (
     'is_custom' => false,
     'from_studio' => true,
     'relationship_name' => 'm20_opportunity_activities_1_emails',
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => true,
+    'relationship_name' => 'm20_opportunity_jump_quote_1',
   ),
 );
