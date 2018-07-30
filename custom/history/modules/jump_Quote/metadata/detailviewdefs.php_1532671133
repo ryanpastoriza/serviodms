@@ -2,10 +2,20 @@
 $module_name = 'jump_Quote';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'DetailView' => 
   array (
     'templateMeta' => 
     array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+        ),
+      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -23,11 +33,6 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_EDITVIEW_PANEL3' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
@@ -42,32 +47,20 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_editview_panel3' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'm20_opportunity_jump_quote_1_name',
-            'label' => 'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_M20_OPPORTUNITY_TITLE',
-          ),
-          1 => '',
-        ),
-      ),
       'lbl_editview_panel1' => 
       array (
         0 => 
         array (
           0 => 'name',
+          1 => 
+          array (
+            'name' => 'revisionno_c',
+            'label' => 'LBL_REVISIONNO',
+          ),
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'date_entered',
-            'comment' => 'Date record created',
-            'label' => 'LBL_DATE_ENTERED',
-          ),
+          0 => 'date_entered',
           1 => 
           array (
             'name' => 'validuntil_c',
@@ -97,16 +90,6 @@ array (
             'name' => 'modeldescription_c',
             'studio' => 'visible',
             'label' => 'LBL_MODELDESCRIPTION',
-            'displayParams' => 
-            array (
-              'field_to_name_array' => 
-              array (
-                'id' => 'aos_products_id_c',
-                'name' => 'modeldescription_c',
-                'price' => 'unitprice_c',
-                'description' => 'vehicledetails_c',
-              ),
-            ),
           ),
           1 => 
           array (
