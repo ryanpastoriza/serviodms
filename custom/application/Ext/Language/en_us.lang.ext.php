@@ -47,12 +47,6 @@ $app_list_strings['moduleList']['jump_Accessories'] = 'Accessories';
 $app_list_strings['moduleList']['jump_Accessory'] = 'Accessory';
 
 
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$app_list_strings['record_type_display']['m20_Opportunity'] = 'Opportunity';
-$app_list_strings['parent_type_display']['m20_Opportunity'] = 'Opportunity';
-$app_list_strings['record_type_display_notes']['m20_Opportunity'] = 'Opportunity';
-
-
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -143,6 +137,12 @@ $app_list_strings['moduleList']['jump_province'] = 'Province';
 $app_list_strings['moduleList']['jump_branch'] = 'Branch';
 
 
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['m20_Opportunity'] = 'Opportunity';
+$app_list_strings['parent_type_display']['m20_Opportunity'] = 'Opportunity';
+$app_list_strings['record_type_display_notes']['m20_Opportunity'] = 'Opportunity';
+
+
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -228,7 +228,6 @@ $app_list_strings['moduleList']['jump_dealer'] = 'Dealer';
 
 
 
-$app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
 $app_list_strings['moduleList']['j41_color'] = 'Color';
 $app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
 $app_list_strings['moduleList']['j41_financing_term'] = 'Financing Term';

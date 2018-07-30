@@ -62,11 +62,6 @@ $dictionary["m20_Opportunity"]["fields"]["m20_opportunity_activities_1_tasks"] =
 );
 
 
- // created: 2018-07-30 02:53:38
-$dictionary['m20_Opportunity']['fields']['aos_products_id_c']['inline_edit']=1;
-
- 
-
 // created: 2018-07-27 05:58:49
 $dictionary["m20_Opportunity"]["fields"]["m20_opportunity_jump_quote_1"] = array (
   'name' => 'm20_opportunity_jump_quote_1',
@@ -79,6 +74,11 @@ $dictionary["m20_Opportunity"]["fields"]["m20_opportunity_jump_quote_1"] = array
   'vname' => 'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_JUMP_QUOTE_TITLE',
 );
 
+
+ // created: 2018-07-30 02:53:38
+$dictionary['m20_Opportunity']['fields']['aos_products_id_c']['inline_edit']=1;
+
+ 
 
  // created: 2018-07-27 09:12:52
 $dictionary['m20_Opportunity']['fields']['base_model_c']['inline_edit']='1';
