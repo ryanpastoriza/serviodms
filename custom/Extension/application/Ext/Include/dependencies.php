@@ -3,9 +3,6 @@
 $beanList['j41_base_model'] = 'j41_base_model';
 $beanFiles['j41_base_model'] = 'modules/j41_base_model/j41_base_model.php';
 $moduleList[] = 'j41_base_model';
-$beanList['j41_color'] = 'j41_color';
-$beanFiles['j41_color'] = 'modules/j41_color/j41_color.php';
-$moduleList[] = 'j41_color';
 $beanList['j41_financing_term'] = 'j41_financing_term';
 $beanFiles['j41_financing_term'] = 'modules/j41_financing_term/j41_financing_term.php';
 $moduleList[] = 'j41_financing_term';
