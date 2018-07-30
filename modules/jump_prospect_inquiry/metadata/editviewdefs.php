@@ -43,8 +43,8 @@ $viewdefs[$module_name]['EditView'] = array(
     'templateMeta' => array(
         'maxColumns' => '2',
         'widths' => array(
-            array('label' => '5', 'field' => '20'),
-            array('label' => '5', 'field' => '20')
+            array('label' => '5', 'field' => '15'),
+            array('label' => '5', 'field' => '15')
         ),
     ),
 
