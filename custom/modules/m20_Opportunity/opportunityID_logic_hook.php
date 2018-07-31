@@ -17,6 +17,7 @@ class OpportunityIDLogicHook{
         $bean->name = $str;
         // $bean->status_type_c = 'open';
         // $bean->last_name  = ucwords($bean->last_name);
+        
     }
-
+    
 }

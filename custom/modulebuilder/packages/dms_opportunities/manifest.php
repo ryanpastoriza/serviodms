@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'dms_opportunities',
-  'published_date' => '2018-07-30 06:06:56',
+  'published_date' => '2018-07-30 06:48:33',
   'type' => 'module',
-  'version' => 1532930816,
+  'version' => 1532933313,
   'remove_tables' => 'prompt',
 );
 

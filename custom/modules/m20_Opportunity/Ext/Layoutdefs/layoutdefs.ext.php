@@ -2,114 +2,55 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2018-07-30 08:08:18
-$layout_defs["m20_Opportunity"]["subpanel_setup"]['activities'] = array (
-  'order' => 10,
-  'sort_order' => 'desc',
-  'sort_by' => 'date_start',
-  'title_key' => 'LBL_ACTIVITIES_SUBPANEL_TITLE',
-  'type' => 'collection',
-  'subpanel_name' => 'activities',
-  'module' => 'Activities',
+ // created: 2018-07-30 08:50:10
+$layout_defs["m20_Opportunity"]["subpanel_setup"]['m20_opportunity_jump_quote_1'] = array (
+  'order' => 100,
+  'module' => 'jump_Quote',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_JUMP_QUOTE_TITLE',
+  'get_subpanel_data' => 'm20_opportunity_jump_quote_1',
   'top_buttons' => 
   array (
     0 => 
     array (
-      'widget_class' => 'SubPanelTopCreateTaskButton',
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
     ),
     1 => 
     array (
-      'widget_class' => 'SubPanelTopScheduleMeetingButton',
-    ),
-    2 => 
-    array (
-      'widget_class' => 'SubPanelTopScheduleCallButton',
-    ),
-    3 => 
-    array (
-      'widget_class' => 'SubPanelTopComposeEmailButton',
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
     ),
   ),
-  'collection_list' => 
-  array (
-    'meetings' => 
-    array (
-      'module' => 'Meetings',
-      'subpanel_name' => 'ForActivities',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_meetings',
-    ),
-    'tasks' => 
-    array (
-      'module' => 'Tasks',
-      'subpanel_name' => 'ForActivities',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_tasks',
-    ),
-    'calls' => 
-    array (
-      'module' => 'Calls',
-      'subpanel_name' => 'ForActivities',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_calls',
-    ),
-  ),
-  'get_subpanel_data' => 'activities',
 );
-$layout_defs["m20_Opportunity"]["subpanel_setup"]['history'] = array (
-  'order' => 20,
-  'sort_order' => 'desc',
-  'sort_by' => 'date_modified',
-  'title_key' => 'LBL_HISTORY',
-  'type' => 'collection',
-  'subpanel_name' => 'history',
-  'module' => 'History',
+
+
+ // created: 2018-07-30 08:49:15
+$layout_defs["m20_Opportunity"]["subpanel_setup"]['m20_opportunity_m20_activity_1'] = array (
+  'order' => 100,
+  'module' => 'm20_activity',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_M20_OPPORTUNITY_M20_ACTIVITY_1_FROM_M20_ACTIVITY_TITLE',
+  'get_subpanel_data' => 'm20_opportunity_m20_activity_1',
   'top_buttons' => 
   array (
     0 => 
     array (
-      'widget_class' => 'SubPanelTopCreateNoteButton',
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
     ),
     1 => 
     array (
-      'widget_class' => 'SubPanelTopArchiveEmailButton',
-    ),
-    2 => 
-    array (
-      'widget_class' => 'SubPanelTopSummaryButton',
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
     ),
   ),
-  'collection_list' => 
-  array (
-    'meetings' => 
-    array (
-      'module' => 'Meetings',
-      'subpanel_name' => 'ForHistory',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_meetings',
-    ),
-    'tasks' => 
-    array (
-      'module' => 'Tasks',
-      'subpanel_name' => 'ForHistory',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_tasks',
-    ),
-    'calls' => 
-    array (
-      'module' => 'Calls',
-      'subpanel_name' => 'ForHistory',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_calls',
-    ),
-    'notes' => 
-    array (
-      'module' => 'Notes',
-      'subpanel_name' => 'ForHistory',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_notes',
-    ),
-    'emails' => 
-    array (
-      'module' => 'Emails',
-      'subpanel_name' => 'ForHistory',
-      'get_subpanel_data' => 'm20_opportunity_activities_1_emails',
-    ),
-  ),
-  'get_subpanel_data' => 'history',
 );
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['m20_Opportunity']['subpanel_setup']['m20_opportunity_m20_activity_1']['override_subpanel_name'] = 'm20_Opportunity_subpanel_m20_opportunity_m20_activity_1';
 
 ?>

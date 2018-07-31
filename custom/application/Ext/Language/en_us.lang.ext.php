@@ -141,7 +141,7 @@ $app_list_strings['moduleList']['j41_lead_source'] = 'Lead Source';
 
 
 
-$app_list_strings['moduleList']['m20_Activities'] = 'Activities';
+$app_list_strings['moduleList']['m20_activity'] = 'Activity';
 $app_list_strings['moduleList']['m20_Opportunity'] = 'Opportunity';
 
 
