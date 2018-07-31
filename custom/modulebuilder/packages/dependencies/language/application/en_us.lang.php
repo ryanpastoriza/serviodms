@@ -40,7 +40,7 @@
 
 
 
-$app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
 $app_list_strings['moduleList']['j41_color'] = 'Color';
+$app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
 $app_list_strings['moduleList']['j41_financing_term'] = 'Financing Term';
 $app_list_strings['moduleList']['j41_lead_source'] = 'Lead Source';
