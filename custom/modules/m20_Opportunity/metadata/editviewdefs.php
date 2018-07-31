@@ -51,29 +51,31 @@ array (
             'name' => 'customer_c',
             'studio' => 'visible',
             'label' => 'LBL_CUSTOMER',
-          ),
-          1 => 
-          array (
-            'name' => 'inquiry_number_c',
-            'label' => 'LBL_INQUIRY_NUMBER',
             'displayParams' => 
             array (
               'field_to_name_array' => 
               array (
                 'id' => 'jump_prospect_inquiry_id_c',
                 'name' => 'customer_c',
-                'inquiry_number_c' => 'inquiry_number_c',
+                'inquiry_number_c' => 'inq_num_c',
+                // 'inquiry_number_c' => 'inq_number_c',
               ),
             ),
+          ),
+          1 => 
+          array (
+            'name' => 'inq_num_c',
+            'label' => 'LBL_INQ_NUM',
+           
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'purchased_timeframe_c',
+            'name' => 'lead_source_c',
             'studio' => 'visible',
-            'label' => 'LBL_PURCHASED_TIMEFRAME',
+            'label' => 'LBL_LEAD_SOURCE',
           ),
           1 => 
           array (
@@ -85,9 +87,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'lead_source_c',
+            'name' => 'purchased_timeframe_c',
             'studio' => 'visible',
-            'label' => 'LBL_LEAD_SOURCE',
+            'label' => 'LBL_PURCHASED_TIMEFRAME',
           ),
           1 => 
           array (
@@ -156,23 +158,3 @@ array (
 );
 ;
 ?>
-
-
-
-<script>
-  $(function(){
-
-    $('#btn_financing_term_c').addClass('hide');
-    $('#btn_clr_financing_term_c').addClass('hide');
-
-    $(document).on('change', '#paymentmode_c', function(){
-      var value = $(this).val();
-      $('#btn_financing_term_c').addClass('hide');
-      $('#btn_clr_financing_term_c').addClass('hide');
-      if(value === 'financing'){
-        $('#btn_financing_term_c').removeClass('hide');
-        $('#btn_clr_financing_term_c').removeClass('hide');
-      }
-    });
-  });
-</script>

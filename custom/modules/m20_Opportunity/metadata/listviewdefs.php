@@ -2,18 +2,20 @@
 $module_name = 'm20_Opportunity';
 $listViewDefs [$module_name] = 
 array (
-  'INQUIRY_NUMBER_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_INQUIRY_NUMBER',
-    'width' => '10%',
-  ),
   'OPPORTUNITYID_C' => 
   array (
     'type' => 'varchar',
     'default' => true,
     'label' => 'LBL_OPPORTUNITYID',
+    'width' => '10%',
+    'link' => true,
+
+  ),
+  'INQ_NUM_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_INQ_NUM',
     'width' => '10%',
   ),
   'CUSTOMER_C' => 
@@ -23,7 +25,7 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_CUSTOMER',
     'id' => 'JUMP_PROSPECT_INQUIRY_ID_C',
-    'link' => true,
+    'link' => false,
     'width' => '10%',
   ),
   'BASE_MODEL_C' => 
@@ -33,7 +35,17 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_BASE_MODEL',
     'id' => 'J41_BASE_MODEL_ID_C',
-    'link' => true,
+    'link' => false,
+    'width' => '10%',
+  ),
+  'COLOR_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_COLOR',
+    'id' => 'JUMP_COLOR_ID_C',
+    'link' => false,
     'width' => '10%',
   ),
   'STATUS_C' => 
@@ -43,19 +55,19 @@ array (
     'label' => 'LBL_STATUS',
     'width' => '10%',
   ),
+  'CREATED_BY_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => false,
+    'label' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => true,
+  ),
   'DATE_ENTERED' => 
   array (
     'type' => 'datetime',
     'label' => 'LBL_DATE_ENTERED',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'CREATED_BY_NAME' => 
-  array (
-    'type' => 'relate',
-    'link' => true,
-    'label' => 'LBL_CREATED',
-    'id' => 'CREATED_BY',
     'width' => '10%',
     'default' => true,
   ),
@@ -72,7 +84,7 @@ array (
     'width' => '32%',
     'label' => 'LBL_NAME',
     'default' => false,
-    'link' => true,
+    'link' => false,
   ),
 );
 ;

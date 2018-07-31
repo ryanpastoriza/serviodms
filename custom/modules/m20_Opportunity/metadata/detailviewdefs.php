@@ -11,9 +11,9 @@ array (
         'buttons' => 
         array (
           0 => 'EDIT',
-          1 => 'DUPLICATE',
+          1 => '',
           2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
+          3 => '',
         ),
       ),
       'maxColumns' => '2',
@@ -63,8 +63,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'inquiry_number_c',
-            'label' => 'LBL_INQUIRY_NUMBER',
+            'name' => 'inq_num_c',
+            'label' => 'LBL_INQ_NUM',
           ),
         ),
         1 => 
@@ -77,9 +77,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'purchased_timeframe_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PURCHASED_TIMEFRAME',
+            'name' => 'status_c',
+            'label' => 'LBL_STATUS',
           ),
         ),
         2 => 
@@ -100,19 +99,25 @@ array (
         array (
           0 => 
           array (
+            'name' => 'purchased_timeframe_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PURCHASED_TIMEFRAME',
+          ),
+          1 => 
+          array (
             'name' => 'estimated_closedate_c',
             'label' => 'LBL_ESTIMATED_CLOSEDATE',
           ),
-          1 => 
+        ),
+        4 => 
+        array (
+          0 => 
           array (
             'name' => 'sales_executive_c',
             'studio' => 'visible',
             'label' => 'LBL_SALES_EXECUTIVE',
           ),
-        ),
-        4 => 
-        array (
-          0 => 'description',
+          1 => 'description',
         ),
       ),
       'lbl_editview_panel3' => 
@@ -124,6 +129,12 @@ array (
             'name' => 'base_model_c',
             'studio' => 'visible',
             'label' => 'LBL_BASE_MODEL',
+          ),
+          1 => 
+          array (
+            'name' => 'color_c',
+            'studio' => 'visible',
+            'label' => 'LBL_COLOR',
           ),
         ),
         1 => 
@@ -159,3 +170,53 @@ array (
 );
 ;
 ?>
+
+<style>
+  #ul-btn li {
+    float:left;
+  }
+  #ul-btn{
+    margin-top:-10px;
+  }
+</style>
+
+<ul class="pull-right" id="ul-btn">
+  <li id="liwon"><button class="btn btn-whtie" value="won" id="won">CLoser as WON</button></li>
+  <li id="lilost"><button class="btn btn-whtie" value="lost" id="lost">CLoser as LOST</button></li>
+  <li id="lirepoen"><button class="btn btn-whtie" value="open" id="re-open">RE-OPEN</button></li>
+</ul>
+
+
+<script>
+  $(function(){
+    var status = $('#status_c').text();
+    if(status === 'won'){
+      $('#ul-btn').addClass('hide');
+    }
+    if(status === 'lost'){
+      $('#lilost').addClass('hide');
+      $('#liwon').addClass('hide');
+    }
+    if(status === 'open'){
+      $('#lirepoen').addClass('hide');
+    }
+
+    // alert($('#status_c').text());
+    $(document).on('click', '#lost, #won, #re-open', function(){
+      var value = {
+        'status' : $(this).val(),
+        'opId' : $('#opportunityid_c').text(),
+      };
+      
+      $.get(`<?php echo 'index.php?module=m20_Opportunity&action=post_status'; ?>`, { data : value }, function(resp){
+        console.log(resp)
+        if(resp){
+          location.reload();
+        }
+
+      });
+      
+
+    });
+  });
+</script>
