@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-27 06:07:02
+// created: 2018-08-01 02:08:31
 $mod_strings = array (
   'LBL_NAME' => 'Sales Quote ID',
   'LBL_DATE_ENTERED' => 'Quote Date',
@@ -21,4 +21,16 @@ $mod_strings = array (
   'LBL_MODELDESCRIPTION_AOS_PRODUCTS_ID' => 'Model Description (related  ID)',
   'LBL_MODELDESCRIPTION' => 'Model Description',
   'LBL_EDITVIEW_PANEL3' => 'CUSTOMER INFORMATION',
+  'LBL_PRINT_AS_PDF' => 'Print',
+  'LBL_REVISE' => 'Activate',
+  'LBL_REVISE2' => 'Recalculate',
+  'LBL_STATUS' => 'Status',
+  'LBL_ASSIGNED_TO_ID' => 'Sales Executive',
+  'LBL_LEADSOURCE_J41_LEAD_SOURCE_ID' => 'LeadSource (related  ID)',
+  'LBL_LEADSOURCE' => 'LeadSource',
+  'LBL_JUMP_QUOTE_JUMP_ACCESSORIES_1_FROM_JUMP_ACCESSORIES_TITLE' => 'Accessories',
+  'LBL_JUMP_QUOTE_JUMP_AUTOFINANCING_1_FROM_JUMP_AUTOFINANCING_TITLE' => 'Auto Financing',
+  'LBL_JUMP_QUOTE_JUMP_CHARGES_1_FROM_JUMP_CHARGES_TITLE' => 'Charges',
+  'LBL_JUMP_QUOTE_JUMP_DISCOUNT_1_FROM_JUMP_DISCOUNT_TITLE' => 'Discounts',
+  'LBL_JUMP_QUOTE_JUMP_INSURANCECHARGES_1_FROM_JUMP_INSURANCECHARGES_TITLE' => 'Insurance Charges',
 );

@@ -58,10 +58,6 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
-        ),
-        1 => 
-        array (
           0 => 
           array (
             'name' => 'date_entered',
@@ -74,16 +70,22 @@ array (
             'label' => 'LBL_VALIDUNTIL',
           ),
         ),
-        2 => 
+        1 => 
         array (
           0 => 
+          array (
+            'name' => 'leadsource_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LEADSOURCE',
+          ),
+          1 => 
           array (
             'name' => 'paymentmode_c',
             'studio' => 'visible',
             'label' => 'LBL_PAYMENTMODE',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 'assigned_user_name',
         ),

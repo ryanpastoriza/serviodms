@@ -9,6 +9,20 @@ array (
     'default' => true,
     'link' => true,
   ),
+  'REVISIONNO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_REVISIONNO',
+    'width' => '10%',
+  ),
+  'STATUS_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_STATUS',
+    'width' => '10%',
+  ),
   'MODELDESCRIPTION_C' => 
   array (
     'type' => 'relate',
@@ -17,13 +31,6 @@ array (
     'label' => 'LBL_MODELDESCRIPTION',
     'id' => 'AOS_PRODUCTS_ID_C',
     'link' => true,
-    'width' => '10%',
-  ),
-  'REVISIONNO_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_REVISIONNO',
     'width' => '10%',
   ),
   'VEHICLEDETAILS_C' => 

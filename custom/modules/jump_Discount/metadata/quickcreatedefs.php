@@ -38,10 +38,21 @@ array (
         array (
           0 => 
           array (
-            'name' => 'promoname_c',
-            'label' => 'LBL_PROMONAME',
+            'name' => 'promoname2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROMONAME2',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'jump_promo_id_c',
+                'name' => 'promoname2_c',
+                'description1_c' => 'description2_c',
+                'discountamount1_c' => 'discountamount_c',
+                'discountname1_c' => 'discountname_c',
+              ),
+            ),
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -50,7 +61,6 @@ array (
             'name' => 'discountname_c',
             'label' => 'LBL_DISCOUNTNAME',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -59,7 +69,6 @@ array (
             'name' => 'description2_c',
             'label' => 'LBL_DESCRIPTION2',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -68,7 +77,6 @@ array (
             'name' => 'discountamount_c',
             'label' => 'LBL_DISCOUNTAMOUNT',
           ),
-          1 => '',
         ),
         4 => 
         array (

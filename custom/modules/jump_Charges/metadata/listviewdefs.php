@@ -33,13 +33,6 @@ array (
     'label' => 'LBL_CHARGETYPE2',
     'width' => '10%',
   ),
-  'DESCRIPTION2_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_DESCRIPTION2',
-    'width' => '10%',
-  ),
   'ASSIGNED_USER_NAME' => 
   array (
     'width' => '9%',

@@ -67,6 +67,14 @@ array (
             'label' => 'LBL_FREE',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'price2_c',
+            'label' => 'LBL_PRICE2',
+          ),
+        ),
       ),
     ),
   ),

@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-25 06:59:08
+// created: 2018-07-31 08:27:33
 $mod_strings = array (
   'LBL_DESCRIPTION' => 'Desc',
   'LBL_APPLYAMOUNTTOAF' => 'Apply Amount to AF',
@@ -11,5 +11,6 @@ $mod_strings = array (
   'LBL_DESCRIPTION2' => 'Description',
   'LBL_DISCOUNTAMOUNT' => 'Discount Amount',
   'LBL_DISCOUNTNAME' => 'Discount Name',
-  'LBL_PROMONAME' => 'Promo Name',
+  'LBL_PROMONAME2_JUMP_PROMO_ID' => 'Promo Name (related  ID)',
+  'LBL_PROMONAME2' => 'Promo Name',
 );

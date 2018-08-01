@@ -48,12 +48,6 @@ $dictionary['jump_Charges']['fields']['amount2_c']['labelValue']='Amount';
 
  
 
- // created: 2018-07-25 06:48:17
-$dictionary['jump_Charges']['fields']['charge2_c']['inline_edit']='1';
-$dictionary['jump_Charges']['fields']['charge2_c']['labelValue']='Charge';
-
- 
-
  // created: 2018-07-26 05:38:39
 $dictionary['jump_Charges']['fields']['chargecode_c']['inline_edit']='1';
 $dictionary['jump_Charges']['fields']['chargecode_c']['labelValue']='Charge Code';
@@ -73,7 +67,7 @@ $dictionary['jump_Charges']['fields']['description']['merge_filter']='disabled';
 
  
 
- // created: 2018-07-25 06:50:36
+ // created: 2018-07-31 06:47:06
 $dictionary['jump_Charges']['fields']['description2_c']['inline_edit']='1';
 $dictionary['jump_Charges']['fields']['description2_c']['labelValue']='Description';
 

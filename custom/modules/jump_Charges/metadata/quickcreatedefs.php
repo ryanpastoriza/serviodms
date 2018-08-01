@@ -44,6 +44,24 @@ array (
         ),
         1 => 
         array (
+          0 => 
+          array (
+            'name' => 'chargecode_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CHARGECODE',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'jump_chargelist_id_c',
+                'name' => 'chargecode_c',
+                'actualcost_c' => 'actualcost2_c',
+                'amount_c' => 'amount2_c',
+                'chargetype_c' => 'chargetype2_c',
+                'description1_c' => 'description2_c',
+              ),
+            ),
+          ),
         ),
         2 => 
         array (
@@ -75,6 +93,7 @@ array (
           0 => 
           array (
             'name' => 'description2_c',
+            'studio' => 'visible',
             'label' => 'LBL_DESCRIPTION2',
           ),
         ),

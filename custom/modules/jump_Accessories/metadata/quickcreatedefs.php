@@ -41,6 +41,16 @@ array (
             'name' => 'itemno2_c',
             'studio' => 'visible',
             'label' => 'LBL_ITEMNO2',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'jump_accessory_id_c',
+                'name' => 'itemno2_c',
+                'price_c' => 'price2_c',
+                'description' => 'itemdescription2_c',
+              ),
+            ),
           ),
         ),
         1 => 
@@ -57,6 +67,14 @@ array (
           array (
             'name' => 'free_c',
             'label' => 'LBL_FREE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'price2_c',
+            'label' => 'LBL_PRICE2',
           ),
         ),
       ),

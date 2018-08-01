@@ -95,7 +95,6 @@ array (
             'name' => 'discount2_c',
             'label' => 'LBL_DISCOUNT2',
           ),
-          1 => '',
         ),
         5 => 
         array (
@@ -104,7 +103,21 @@ array (
             'name' => 'netdownpayment_c',
             'label' => 'LBL_NETDOWNPAYMENT',
           ),
-          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'financingterm_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCINGTERM',
+            
+          ),
+          1 => 
+          array (
+            'name' => 'monthlyamortization2_c',
+            'label' => 'LBL_MONTHLYAMORTIZATION2',
+          ),
         ),
       ),
     ),

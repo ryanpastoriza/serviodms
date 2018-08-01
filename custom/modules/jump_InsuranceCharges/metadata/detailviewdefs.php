@@ -63,11 +63,6 @@ array (
         ),
         2 => 
         array (
-          0 => 
-          array (
-            'name' => 'insurancecoverage_c',
-            'label' => 'LBL_INSURANCECOVERAGE',
-          ),
         ),
         3 => 
         array (

@@ -21,13 +21,6 @@ array (
     'link' => true,
     'width' => '10%',
   ),
-  'INSURANCECOVERAGE_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_INSURANCECOVERAGE',
-    'width' => '10%',
-  ),
   'CTPL_C' => 
   array (
     'type' => 'varchar',
