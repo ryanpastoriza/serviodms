@@ -1,23 +1,6 @@
 <?php
 
-
-
-
-
-
-
 $app_strings['LBL_GROUPTAB1_1532672985'] = 'Dependencies';
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -264,12 +247,8 @@ $GLOBALS['app_list_strings']['rating_list']=array (
   'hot' => 'Hot',
   'warm' => 'Warm',
   'cold' => 'Cold',
-<?php
 
-
-
-
-
+);
 $app_strings['LBL_GROUPTAB1_1532672985'] = 'Dependencies';
 
 
