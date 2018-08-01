@@ -29,7 +29,6 @@ array (
     'default' => true,
     'label' => 'LBL_COMPANY_NAME',
     'width' => '10%',
-    'link' => true,
   ),
   'BASE_MODEL_C' => 
   array (
@@ -38,7 +37,6 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_BASE_MODEL',
     'id' => 'J41_BASE_MODEL_ID_C',
-    'link' => true,
     'width' => '10%',
   ),
   'BODY_TYPE_C' => 
@@ -55,7 +53,6 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_COLOR',
     'id' => 'JUMP_COLOR_ID_C',
-    'link' => true,
     'width' => '10%',
   ),
   'PAYMENT_MODE_C' => 
@@ -73,7 +70,6 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_FINANCING_TERM',
     'id' => 'JUMP_FINANCINGTERM_ID_C',
-    'link' => true,
     'width' => '10%',
   ),
   'LEAD_SOURCE_C' => 
@@ -83,7 +79,6 @@ array (
     'studio' => 'visible',
     'label' => 'LBL_LEAD_SOURCE',
     'id' => 'J41_LEAD_SOURCE_ID_C',
-    'link' => true,
     'width' => '10%',
   ),
   'RATING_C' => 
@@ -134,7 +129,6 @@ array (
   'CREATED_BY_NAME' => 
   array (
     'type' => 'relate',
-    'link' => true,
     'label' => 'LBL_CREATED',
     'id' => 'CREATED_BY',
     'width' => '10%',
@@ -142,7 +136,6 @@ array (
   ),
 );
 ;
-
 
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
@@ -153,6 +146,7 @@ if( $action == "action=index" ){
 
     unset($listViewDefs [$module_name]['ACTIVATION_STATUS_C']);
     unset($listViewDefs [$module_name]['DISQ_REASON_C']);
+    unset($listViewDefs [$module_name]['COMPANY_NAME_C']);
 
 }
 

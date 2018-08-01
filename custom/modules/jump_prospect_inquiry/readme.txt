@@ -4,7 +4,6 @@ IF THE Prospect and Master columns will be the same copy and paste the code belo
 
 START HERE ------>
 
-
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 $a = explode("&", $actual_link);
@@ -14,6 +13,7 @@ if( $action == "action=index" ){
 
     unset($listViewDefs [$module_name]['ACTIVATION_STATUS_C']);
     unset($listViewDefs [$module_name]['DISQ_REASON_C']);
+    unset($listViewDefs [$module_name]['COMPANY_NAME_C']);
 
 }
 
@@ -34,3 +34,4 @@ else{
     unset($listViewDefs [$module_name]['STATUS_C']);
     unset($listViewDefs [$module_name]['DISQ_REASON_C']);
 }
+

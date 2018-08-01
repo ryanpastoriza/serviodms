@@ -13,3 +13,13 @@
 	background: none;
 	border:none;
 }
+
+.status_update_btn {
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	padding-bottom: 4px !important;
+}
+
+#qualify_btn, #reopen_btn {
+	margin-left: 4px;
+}

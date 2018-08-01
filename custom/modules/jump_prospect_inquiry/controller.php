@@ -62,11 +62,11 @@
 			$payment_mode 		= $result['payment_mode_c'];
 			$opportunity_id 	= "PI_OP_".date("Ymd_His");
 			$status_type 		= "open";
-			$lead_source_id 	= $result['jump_lead_source_id_c'];
-			$mode_desc_id		= $result['jump_model_description_id_c'];
+			$lead_source_id 	= $result['j41_lead_source_id_c'];
+			$mode_desc_id		= $result['aos_products_id_c'];
 			$color_id			= $result['jump_color_id_c'];
-			$financing_term_id  = $result['jump_financing_term_id_c'];
-			$base_model_id		= $result['jump_base_model_id_c'];
+			$financing_term_id  = $result['jump_financingterm_id_c'];
+			$base_model_id		= $result['j41_base_model_id_c'];
 			$jump_prospect_inquiry_id_c = $result['id'];
 			$inqry_number		= $result['inquiry_number_c'];
 
@@ -81,7 +81,7 @@
 			$insert_qry = "INSERT into m20_opportunity 
 								values(
 									'". $generated_id ."', 
-									null, 
+									'". $opportunity_id ."',  
 									NOW(), 
 									null, 
 									null, 
@@ -98,20 +98,19 @@
 			$insert_qry_cstm 	=   "INSERT into m20_opportunity_cstm
 										values(
 											'". $generated_id ."', 
-											'". $user_id ."',
 											null,
 											null, 
 											null, 
-											'". $payment_mode ."', 
 											'". $opportunity_id ."', 
-											null, 
-											'" . $status_type ."', 
-											'" . $lead_source_id ."', 
-											'" . $mode_desc_id . "', 
-											'" . $color_id ."', 
-											'" . $financing_term_id . "', 
-											'" . $base_model_id ."', 
 											'" . $jump_prospect_inquiry_id_c . "',
+											'" . $lead_source_id ."', 
+											'" . $base_model_id ."', 
+											'". $payment_mode ."', 
+											'" . $financing_term_id . "', 
+											'". $user_id ."',
+											'" . $mode_desc_id . "', 
+											'" . $status_type ."', 
+											'" . $color_id ."', 
 											'" . $inqry_number . "'
 									)";
 

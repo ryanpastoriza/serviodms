@@ -5,11 +5,6 @@ require_once('include/MVC/View/views/view.list.php');
 class Jump_prospect_inquiryViewList extends ViewList {
     
 
-    // public function listViewPrepare(){
-        
-
-    // }
-
     public function listViewProcess() {
         
         $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
@@ -48,12 +43,10 @@ class Jump_prospect_inquiryViewList extends ViewList {
 
     }
 
-
-    // public function display(){
-
-
-        // parent::display();
-        // echo "<h1>hello</h1>";
-    // }
+    public function preDisplay(){
+        parent::preDisplay();
+        $this->lv->quickViewLinks = false;
+        echo '<script type="text/javascript" src="custom/modules/jump_prospect_inquiry/js/list.js"></script>';
+    }
 
 }

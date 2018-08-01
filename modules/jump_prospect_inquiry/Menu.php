@@ -52,37 +52,42 @@ if(ACLController::checkAccess('jump_prospect_inquiry', 'list', true)){
 }
 
 // --- CUSTOM LINKS -------------------
+    global $current_user;
+   
+    $is_admin = $current_user->is_admin;
     
-    // --- Individual -------------------------
-	$module_menu[] = Array(
-        //URL
-        "index.php?module=jump_prospect_inquiry&action=individual_prospect_list", 
-        
-        //Label String
-        "Individual Prospect <b><small>(Master)</small> </b>", 
-        
-        //Image icon. Icons are found in ./themes/default/images. 
-        '', 
-        
-        //Module Name
-        'jump_prospect_inquiry' 
-    );
+    if( $is_admin == 1 ){
 
-    // --- Corporate --------------------------
-    $module_menu[] = Array(
-        //URL
-        "index.php?module=jump_prospect_inquiry&action=corporate_prospect_list", 
-        
-        //Label String
-        "Corporate Prospect <b><small>(Master)</small> </b>", 
-        
-        //Image icon. Icons are found in ./themes/default/images. 
-        '', 
-        
-        //Module Name
-        'jump_prospect_inquiry' 
-    );
+        // --- Individual -------------------------
+    	$module_menu[] = Array(
+            //URL
+            "index.php?module=jump_prospect_inquiry&action=individual_prospect_list", 
+            
+            //Label String
+            "Individual Prospect <b><small>(Master)</small> </b>", 
+            
+            //Image icon. Icons are found in ./themes/default/images. 
+            '', 
+            
+            //Module Name
+            'jump_prospect_inquiry' 
+        );
 
+        // --- Corporate --------------------------
+        $module_menu[] = Array(
+            //URL
+            "index.php?module=jump_prospect_inquiry&action=corporate_prospect_list", 
+            
+            //Label String
+            "Corporate Prospect <b><small>(Master)</small> </b>", 
+            
+            //Image icon. Icons are found in ./themes/default/images. 
+            '', 
+            
+            //Module Name
+            'jump_prospect_inquiry' 
+        );
+    }
 
 // ------------------------------------
 
