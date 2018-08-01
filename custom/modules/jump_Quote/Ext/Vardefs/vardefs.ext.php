@@ -125,6 +125,11 @@ $dictionary['jump_Quote']['fields']['description']['merge_filter']='disabled';
 
  
 
+ // created: 2018-07-30 02:30:10
+$dictionary['jump_Quote']['fields']['j41_lead_source_id_c']['inline_edit']=1;
+
+ 
+
  // created: 2018-07-25 07:27:33
 $dictionary['jump_Quote']['fields']['jump_color_id1_c']['inline_edit']=1;
 
@@ -132,6 +137,12 @@ $dictionary['jump_Quote']['fields']['jump_color_id1_c']['inline_edit']=1;
 
  // created: 2018-07-25 07:26:14
 $dictionary['jump_Quote']['fields']['jump_color_id_c']['inline_edit']=1;
+
+ 
+
+ // created: 2018-07-30 02:30:10
+$dictionary['jump_Quote']['fields']['leadsource_c']['inline_edit']='1';
+$dictionary['jump_Quote']['fields']['leadsource_c']['labelValue']='LeadSource';
 
  
 
@@ -183,6 +194,12 @@ $dictionary['jump_Quote']['fields']['preferredcolor3_c']['labelValue']='Preferre
  // created: 2018-07-25 07:19:02
 $dictionary['jump_Quote']['fields']['revisionno_c']['inline_edit']=false;
 $dictionary['jump_Quote']['fields']['revisionno_c']['labelValue']='Revision No.';
+
+ 
+
+ // created: 2018-07-30 02:23:38
+$dictionary['jump_Quote']['fields']['status_c']['inline_edit']='1';
+$dictionary['jump_Quote']['fields']['status_c']['labelValue']='Status';
 
  
 

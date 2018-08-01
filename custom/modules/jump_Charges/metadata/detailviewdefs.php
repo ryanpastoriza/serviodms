@@ -52,9 +52,6 @@ array (
             'label' => 'LBL_FREE',
           ),
         ),
-        1 => 
-        array (
-        ),
         2 => 
         array (
           0 => 
@@ -82,11 +79,6 @@ array (
         ),
         5 => 
         array (
-          0 => 
-          array (
-            'name' => 'description2_c',
-            'label' => 'LBL_DESCRIPTION2',
-          ),
         ),
       ),
     ),

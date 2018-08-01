@@ -41,16 +41,15 @@ array (
             'name' => 'jump_quote_jump_discount_1_name',
             'label' => 'LBL_JUMP_QUOTE_JUMP_DISCOUNT_1_FROM_JUMP_QUOTE_TITLE',
           ),
-          1 => '',
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'promoname_c',
-            'label' => 'LBL_PROMONAME',
+            'name' => 'promoname2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROMONAME2',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -59,7 +58,6 @@ array (
             'name' => 'discountname_c',
             'label' => 'LBL_DISCOUNTNAME',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -68,7 +66,6 @@ array (
             'name' => 'description2_c',
             'label' => 'LBL_DESCRIPTION2',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -77,7 +74,6 @@ array (
             'name' => 'discountamount_c',
             'label' => 'LBL_DISCOUNTAMOUNT',
           ),
-          1 => '',
         ),
         5 => 
         array (

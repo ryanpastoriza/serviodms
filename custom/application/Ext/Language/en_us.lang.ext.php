@@ -134,6 +134,10 @@ $app_list_strings['moduleList']['jump_province'] = 'Province';
 
 
 
+$app_list_strings['moduleList']['j41_base_model'] = 'Base Model';
+$app_list_strings['moduleList']['j41_color'] = 'Color';
+$app_list_strings['moduleList']['j41_financing_term'] = 'Financing Term';
+$app_list_strings['moduleList']['j41_lead_source'] = 'Lead Source';
 $app_list_strings['moduleList']['jump_branch'] = 'Branch';
 
 
@@ -185,6 +189,7 @@ $app_list_strings['record_type_display_notes']['m20_Opportunity'] = 'Opportunity
 
 
 $app_list_strings['moduleList']['jump_dealer'] = 'Dealer';
+
 
 
 /**

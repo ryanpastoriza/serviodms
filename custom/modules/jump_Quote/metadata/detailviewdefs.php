@@ -11,9 +11,21 @@ array (
         'buttons' => 
         array (
           0 => 'EDIT',
-          1 => 'DUPLICATE',
+          1 => '',
           2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
+          3 => '',
+          4 => 
+          array (
+            'customCode' => '<input type="button" class="button" onClick="window.print();" value="{$MOD.LBL_PRINT_AS_PDF}">',
+          ),
+          5 => 
+          array (
+            'customCode' => '<input type="button" class="button" onClick="setactive();" value="{$MOD.LBL_REVISE}">',
+          ),
+          6 => 
+          array (
+            'customCode' => '<input type="button" class="button" onClick="calculate();" value="{$MOD.LBL_REVISE2}">',
+          ),
         ),
       ),
       'maxColumns' => '2',
@@ -33,6 +45,11 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => false,
@@ -47,6 +64,18 @@ array (
     ),
     'panels' => 
     array (
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'm20_opportunity_jump_quote_1_name',
+            'label' => 'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_M20_OPPORTUNITY_TITLE',
+          ),
+          1 => '',
+        ),
+      ),
       'lbl_editview_panel1' => 
       array (
         0 => 
@@ -71,6 +100,12 @@ array (
         array (
           0 => 
           array (
+            'name' => 'leadsource_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LEADSOURCE',
+          ),
+          1 => 
+          array (
             'name' => 'paymentmode_c',
             'studio' => 'visible',
             'label' => 'LBL_PAYMENTMODE',
@@ -79,6 +114,11 @@ array (
         3 => 
         array (
           0 => 'assigned_user_name',
+          1 => 
+          array (
+            'name' => 'status_c',
+            'label' => 'LBL_STATUS',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 

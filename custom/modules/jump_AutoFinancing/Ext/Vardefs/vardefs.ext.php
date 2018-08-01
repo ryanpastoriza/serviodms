@@ -84,13 +84,30 @@ $dictionary['jump_AutoFinancing']['fields']['downpayment_c']['labelValue']='Down
 
  
 
+ // created: 2018-08-01 02:27:50
+$dictionary['jump_AutoFinancing']['fields']['financingterm_c']['inline_edit']='1';
+$dictionary['jump_AutoFinancing']['fields']['financingterm_c']['labelValue']='Financing Term';
+
+ 
+
  // created: 2018-07-26 01:15:32
 $dictionary['jump_AutoFinancing']['fields']['jump_bank_id_c']['inline_edit']=1;
 
  
 
+ // created: 2018-08-01 02:27:50
+$dictionary['jump_AutoFinancing']['fields']['jump_financingterm_id_c']['inline_edit']=1;
+
+ 
+
  // created: 2018-07-26 01:15:54
 $dictionary['jump_AutoFinancing']['fields']['jump_scheme_id_c']['inline_edit']=1;
+
+ 
+
+ // created: 2018-08-01 02:19:33
+$dictionary['jump_AutoFinancing']['fields']['monthlyamortization2_c']['inline_edit']='1';
+$dictionary['jump_AutoFinancing']['fields']['monthlyamortization2_c']['labelValue']='Monthly Amortization';
 
  
 

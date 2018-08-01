@@ -16,6 +16,8 @@ $dictionary["m20_Opportunity"]["fields"]["m20_opportunity_jump_quote_1"] = array
 );
 
 
+ // created: 2018-07-27 09:12:52
+$dictionary['m20_Opportunity']['fields']['base_model_c']['inline_edit']='1';
 // created: 2018-07-30 08:49:15
 $dictionary["m20_Opportunity"]["fields"]["m20_opportunity_m20_activity_1"] = array (
   'name' => 'm20_opportunity_m20_activity_1',
