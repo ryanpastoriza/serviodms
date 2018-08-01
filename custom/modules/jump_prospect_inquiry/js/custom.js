@@ -1,7 +1,7 @@
 
 SUGAR.util.doWhen("typeof $ != 'undefined'", function(){
 
-	// onload inputs -----------------------------------------------
+	// on load inputs -----------------------------------------------
 
 	$(function(){
 
@@ -25,7 +25,6 @@ SUGAR.util.doWhen("typeof $ != 'undefined'", function(){
 		$("#owning_dealer_c").attr('readonly', 'readonly');
 		$("#created_on_c").attr('readonly', 'readonly');
 		$('#created_on_c_trigger').remove();
-
 	})
 
 	// --------------------------------------------------------------
@@ -99,16 +98,13 @@ SUGAR.util.doWhen("typeof $ != 'undefined'", function(){
 		var financing_term = $(this).val();
 
 		if( financing_term == "financing" ){
-
 			$("#financing_term_c").removeAttr('disabled');
 			$("#btn_financing_term_c").removeAttr('disabled');
-
 		}
 		else{
 			$("#financing_term_c").attr('disabled', 'disabled');
 			$("#btn_financing_term_c").attr('disabled', 'disabled');
 		}
-
 	});
 
 
