@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-31 02:55:18
+// created: 2018-08-01 03:28:50
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL2' => 'New Opportunity',
   'LBL_BASE_MODEL' => 'Base Model',
@@ -19,4 +19,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL4' => 'PAYMENT TERMS',
   'LBL_INQ_NUM' => 'Inquiry Number',
   'LBL_M20_OPPORTUNITY_M20_ACTIVITY_1_FROM_M20_ACTIVITY_TITLE' => 'Activity',
+  'LBL_STATUS' => 'Status:',
 );

@@ -150,16 +150,14 @@ array (
             'name' => 'financing_term_c',
             'studio' => 'visible',
             'label' => 'LBL_FINANCING_TERM',
-            'displayParams' => 
-            array (
-              'field_to_name_array' => 
-              array (
-                'id' => 'jump_financingterm_id_c',
-                'monthlyamortization_c' => 'financing_term_c',
-                // 'inquiry_number_c' => 'inq_num_c',
-                // 'inquiry_number_c' => 'inq_number_c',
-              ),
-            ),
+            // 'displayParams' => 
+            // array (
+            //   'field_to_name_array' => 
+            //   array (
+            //     'id' => 'jump_financingterm_id_c',
+            //     'monthlyamortization_c' => 'financing_term_c',
+            //   ),
+            // ),
           ),
         ),
       ),
