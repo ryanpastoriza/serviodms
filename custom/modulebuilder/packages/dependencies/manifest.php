@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'dependencies',
-  'published_date' => '2018-07-27 03:22:40',
+  'published_date' => '2018-07-30 01:43:09',
   'type' => 'module',
-  'version' => 1532661760,
+  'version' => 1532914989,
   'remove_tables' => 'prompt',
 );
 

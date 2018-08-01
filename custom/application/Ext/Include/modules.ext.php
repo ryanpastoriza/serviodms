@@ -26,12 +26,23 @@ $moduleList[] = 'jump_province';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['jump_branch'] = 'jump_branch';
+$beanFiles['jump_branch'] = 'modules/jump_branch/jump_branch.php';
+$moduleList[] = 'jump_branch';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['jump_dealer'] = 'jump_dealer';
+$beanFiles['jump_dealer'] = 'modules/jump_dealer/jump_dealer.php';
+$moduleList[] = 'jump_dealer';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['j41_base_model'] = 'j41_base_model';
 $beanFiles['j41_base_model'] = 'modules/j41_base_model/j41_base_model.php';
 $moduleList[] = 'j41_base_model';
-$beanList['j41_color'] = 'j41_color';
-$beanFiles['j41_color'] = 'modules/j41_color/j41_color.php';
-$moduleList[] = 'j41_color';
 $beanList['j41_financing_term'] = 'j41_financing_term';
 $beanFiles['j41_financing_term'] = 'modules/j41_financing_term/j41_financing_term.php';
 $moduleList[] = 'j41_financing_term';
@@ -42,9 +53,9 @@ $moduleList[] = 'j41_lead_source';
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['m20_Activities'] = 'm20_Activities';
-$beanFiles['m20_Activities'] = 'modules/m20_Activities/m20_Activities.php';
-$moduleList[] = 'm20_Activities';
+$beanList['m20_activity'] = 'm20_activity';
+$beanFiles['m20_activity'] = 'modules/m20_activity/m20_activity.php';
+$moduleList[] = 'm20_activity';
 $beanList['m20_Opportunity'] = 'm20_Opportunity';
 $beanFiles['m20_Opportunity'] = 'modules/m20_Opportunity/m20_Opportunity.php';
 $moduleList[] = 'm20_Opportunity';
