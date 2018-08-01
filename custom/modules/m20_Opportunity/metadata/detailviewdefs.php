@@ -181,8 +181,8 @@ array (
 </style>
 
 <ul class="pull-right" id="ul-btn">
-  <li id="liwon"><button class="btn btn-whtie" value="won" id="won">CLoser as WON</button></li>
-  <li id="lilost"><button class="btn btn-whtie" value="lost" id="lost">CLoser as LOST</button></li>
+  <li id="liwon"><button class="btn btn-whtie" value="won" id="won">CLOSE AS WON</button></li>
+  <li id="lilost"><button class="btn btn-whtie" value="lost" id="lost">CLOSE AS LOST</button></li>
   <li id="lirepoen"><button class="btn btn-whtie" value="open" id="re-open">RE-OPEN</button></li>
 </ul>
 
@@ -212,7 +212,6 @@ array (
         if(resp){
           location.reload();
         }
-
       });
       
 
