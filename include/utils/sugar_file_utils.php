@@ -189,17 +189,17 @@ function sugar_file_put_contents_atomic($filename, $data, $mode = 'wb')
     fwrite($f, $data);
     fclose($f);
 
-    if (!@rename($temp, $filename)) {
-        @unlink($filename);
-        if (!@rename($temp, $filename)) {
-            // cleaning up temp file to avoid filling up temp dir
-            @unlink($temp);
-            trigger_error(
-                "sugar_file_put_contents_atomic() : fatal rename failure '$temp' -> '$filename'",
-                E_USER_WARNING
-            );
-        }
-    }
+    // if (!@rename($temp, $filename)) {
+    //     @unlink($filename);
+    //     if (!@rename($temp, $filename)) {
+    //         // cleaning up temp file to avoid filling up temp dir
+    //         @unlink($temp);
+    //         trigger_error(
+    //             "sugar_file_put_contents_atomic() : fatal rename failure '$temp' -> '$filename'",
+    //             E_USER_WARNING
+    //         );
+    //     }
+    // }
 
     if (file_exists($filename)) {
         return sugar_chmod($filename, 0755);

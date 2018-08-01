@@ -50,6 +50,43 @@ if(ACLController::checkAccess('jump_prospect_inquiry', 'edit', true)){
 if(ACLController::checkAccess('jump_prospect_inquiry', 'list', true)){
     $module_menu[]=array('index.php?module=jump_prospect_inquiry&action=index&return_module=jump_prospect_inquiry&return_action=DetailView', $mod_strings['LNK_LIST'],'View', 'jump_prospect_inquiry');
 }
+
+// --- CUSTOM LINKS -------------------
+    
+    // --- Individual -------------------------
+	$module_menu[] = Array(
+        //URL
+        "index.php?module=jump_prospect_inquiry&action=individual_prospect_list", 
+        
+        //Label String
+        "Individual Prospect <b><small>(Master)</small> </b>", 
+        
+        //Image icon. Icons are found in ./themes/default/images. 
+        '', 
+        
+        //Module Name
+        'jump_prospect_inquiry' 
+    );
+
+    // --- Corporate --------------------------
+    $module_menu[] = Array(
+        //URL
+        "index.php?module=jump_prospect_inquiry&action=corporate_prospect_list", 
+        
+        //Label String
+        "Corporate Prospect <b><small>(Master)</small> </b>", 
+        
+        //Image icon. Icons are found in ./themes/default/images. 
+        '', 
+        
+        //Module Name
+        'jump_prospect_inquiry' 
+    );
+
+
+// ------------------------------------
+
+
 if(ACLController::checkAccess('jump_prospect_inquiry', 'import', true)){
     $module_menu[]=array('index.php?module=Import&action=Step1&import_module=jump_prospect_inquiry&return_module=jump_prospect_inquiry&return_action=index', $app_strings['LBL_IMPORT'], 'Import', 'jump_prospect_inquiry');
 }

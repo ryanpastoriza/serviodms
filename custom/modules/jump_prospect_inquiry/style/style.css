@@ -5,3 +5,11 @@
 	background:none;
 	border:none;
 }
+
+#record_owner_c,
+#owning_branch_c,
+#owning_dealer_c,
+#created_on_c {
+	background: none;
+	border:none;
+}
