@@ -3,6 +3,8 @@
 $status = $this->bean->status_c;
 $id     = $this->bean->id;
 
+$action = $_GET['detail_action'];
+
 ?>
 
 <!-- Qualify Modal -->
@@ -57,9 +59,11 @@ $id     = $this->bean->id;
 	var id 	   = '<?=$id?>';
 	var status = '<?=$status?>'.toLowerCase();
 	var disqualification_reason = "";
+	var detail_action = "<?=strtolower($detail_action)?>"
 
 	$(function(){
 
+		// ----- SET BUTTONS -------------------------------------------
 		if( status == 'open' ){
 			$("#tab-actions").after("\
 										<button class='btn btn-info status_update_btn' id='qualify_btn' data-toggle='modal' data-target='#qualify_modal'><span class='glyphicon glyphicon-thumbs-up'></span> QUALIFY</button>\
@@ -69,6 +73,16 @@ $id     = $this->bean->id;
 		if( status == 'disqualified' ){
 			$("#tab-actions").after(" <button class='btn btn-warning glyphicon glyphicon-folder-open status_update_btn' id='reopen_btn' value='open'> REOPEN INQUIRY</button> ");
 		}
+
+
+
+		// ------- REMOVE EDIT AND DELETE BUTTONS -----------------------
+
+		if(detail_action == 'prospect'){	
+			$("#edit_button").parent().remove();
+			$("#delete_button").parent().remove();
+		}
+
 	});
 
 
@@ -135,6 +149,8 @@ $id     = $this->bean->id;
 		})
 	}
 	
+
+
 
 
 </script>

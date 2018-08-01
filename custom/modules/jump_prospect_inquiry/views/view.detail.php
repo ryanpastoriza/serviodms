@@ -7,7 +7,6 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 class Jump_prospect_inquiryViewDetail extends ViewDetail
 {
 
-	
 	public function preDisplay(){
 
 		
@@ -31,6 +30,7 @@ class Jump_prospect_inquiryViewDetail extends ViewDetail
 
 	public function display(){
 		
+
 		parent::display();
 	}
 }

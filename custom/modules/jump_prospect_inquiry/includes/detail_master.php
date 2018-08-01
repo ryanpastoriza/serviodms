@@ -8,6 +8,7 @@
 	
 	$(function(){
 
+
 		var act_status = "<?=strtolower($activation_status)?>"
 
 		if( act_status == 'active' ){

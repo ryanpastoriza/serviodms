@@ -45,6 +45,7 @@ class Jump_prospect_inquiryViewList extends ViewList {
 
     public function preDisplay(){
         parent::preDisplay();
+        $this->lv->quickViewLinks = false;
         echo '<script type="text/javascript" src="custom/modules/jump_prospect_inquiry/js/list.js"></script>';
     }
 
