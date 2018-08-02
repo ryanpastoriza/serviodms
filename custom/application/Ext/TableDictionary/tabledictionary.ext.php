@@ -36,4 +36,9 @@ include('custom/metadata/jump_quote_jump_insurancecharges_1MetaData.php');
 include('custom/metadata/m20_opportunity_jump_quote_1MetaData.php');
 
 
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/m20_opportunity_m20_activity_1MetaData.php');
+
+
 ?>

@@ -1,11 +1,6 @@
 <?php
-// created: 2018-07-27 09:13:19
-$mod_strings = array (
-  'LBL_BODY_TYPE' => 'Body Type',
-
-);
-// created: 2018-07-25 07:23:48
+// created: 2018-07-30 04:10:28
 $mod_strings = array (
   'LBL_NAME' => 'Model Description',
-
+  'LBL_BODY_TYPE' => 'Body Type',
 );
