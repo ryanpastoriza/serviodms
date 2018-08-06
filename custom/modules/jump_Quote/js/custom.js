@@ -88,10 +88,10 @@ SUGAR.util.doWhen("typeof $ != 'undefined'", function(){
         var dp = x.value;
         var up = $('#unitprice_c').text();
         var dpp = dp/up*100;
-        z.value = dpp;
+        z.value = dpp.toFixed(2);
         var af = up-dp;
         y.value = af;
-        w.value = af-dpd;
+        w.value = dp-dpd;
     });
     
     $(document).on('keyup', '#downpaymentp_c', function(event) {
@@ -108,7 +108,7 @@ SUGAR.util.doWhen("typeof $ != 'undefined'", function(){
         z.value = dp;
 		var af = up-dp;
         y.value = af;
-        w.value = af-dpd;
+        w.value = dp-dpd;
 	});
     $(document).on('keyup', '#totalpremium_c', function(event) {
         

@@ -50,8 +50,21 @@ array (
           array (
             'name' => 'm20_opportunity_jump_quote_1_name',
             'label' => 'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_M20_OPPORTUNITY_TITLE',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'm20_opportunity_jump_quote_1m20_opportunity_ida',
+                'name' => 'm20_opportunity_jump_quote_1_name',
+                'customer_c' => 'customer2_c',
+              ),
+            ),
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'customer2_c',
+            'label' => 'LBL_CUSTOMER2',
+          ),
         ),
       ),
       'lbl_editview_panel1' => 
