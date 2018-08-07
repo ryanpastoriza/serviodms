@@ -9,18 +9,11 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'REVISIONNO_C' => 
+  'CUSTOMER2_C' => 
   array (
     'type' => 'varchar',
     'default' => true,
-    'label' => 'LBL_REVISIONNO',
-    'width' => '10%',
-  ),
-  'STATUS_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_STATUS',
+    'label' => 'LBL_CUSTOMER2',
     'width' => '10%',
   ),
   'MODELDESCRIPTION_C' => 
@@ -33,27 +26,14 @@ array (
     'link' => true,
     'width' => '10%',
   ),
-  'VEHICLEDETAILS_C' => 
+  'PREFERREDCOLOR1_C' => 
   array (
-    'type' => 'text',
+    'type' => 'relate',
     'default' => true,
     'studio' => 'visible',
-    'label' => 'LBL_VEHICLEDETAILS',
-    'sortable' => false,
-    'width' => '10%',
-  ),
-  'VALIDUNTIL_C' => 
-  array (
-    'type' => 'date',
-    'default' => true,
-    'label' => 'LBL_VALIDUNTIL',
-    'width' => '10%',
-  ),
-  'UNITPRICE_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_UNITPRICE',
+    'label' => 'LBL_PREFERREDCOLOR1',
+    'id' => 'JUMP_COLOR_ID_C',
+    'link' => true,
     'width' => '10%',
   ),
   'PAYMENTMODE_C' => 
@@ -64,14 +44,57 @@ array (
     'label' => 'LBL_PAYMENTMODE',
     'width' => '10%',
   ),
-  'PREFERREDCOLOR1_C' => 
+  'CREATED_BY_NAME' => 
   array (
     'type' => 'relate',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_PREFERREDCOLOR1',
-    'id' => 'JUMP_COLOR_ID_C',
     'link' => true,
+    'label' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'STATUS_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_STATUS',
+    'width' => '10%',
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'VEHICLEDETAILS_C' => 
+  array (
+    'type' => 'text',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_VEHICLEDETAILS',
+    'sortable' => false,
+    'width' => '10%',
+  ),
+  'VALIDUNTIL_C' => 
+  array (
+    'type' => 'date',
+    'default' => false,
+    'label' => 'LBL_VALIDUNTIL',
+    'width' => '10%',
+  ),
+  'REVISIONNO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_REVISIONNO',
+    'width' => '10%',
+  ),
+  'UNITPRICE_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_UNITPRICE',
     'width' => '10%',
   ),
   'ASSIGNED_USER_NAME' => 

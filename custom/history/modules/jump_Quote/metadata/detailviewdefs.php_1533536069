@@ -73,11 +73,7 @@ array (
             'name' => 'm20_opportunity_jump_quote_1_name',
             'label' => 'LBL_M20_OPPORTUNITY_JUMP_QUOTE_1_FROM_M20_OPPORTUNITY_TITLE',
           ),
-          1 => 
-          array (
-            'name' => 'customer2_c',
-            'label' => 'LBL_CUSTOMER2',
-          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel1' => 

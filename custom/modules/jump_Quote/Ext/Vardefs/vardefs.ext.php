@@ -112,6 +112,12 @@ $dictionary['jump_Quote']['fields']['aos_products_id_c']['inline_edit']=1;
 
  
 
+ // created: 2018-08-06 06:13:40
+$dictionary['jump_Quote']['fields']['customer2_c']['inline_edit']='1';
+$dictionary['jump_Quote']['fields']['customer2_c']['labelValue']='Customer';
+
+ 
+
  // created: 2018-07-25 07:17:01
 $dictionary['jump_Quote']['fields']['date_entered']['comments']='Date record created';
 $dictionary['jump_Quote']['fields']['date_entered']['merge_filter']='disabled';
