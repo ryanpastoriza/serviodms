@@ -65,47 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'branch',
-  'published_date' => '2018-08-06 06:14:48',
+  'published_date' => '2018-08-06 06:16:10',
   'type' => 'module',
-  'version' => 1533536092,
+  'version' => 1533536172,
   'remove_tables' => 'prompt',
 );
 
-
-$installdefs = array (
-  'id' => 'branch',
-  'beans' => 
-  array (
-    0 => 
-    array (
-      'module' => 'jump_branch',
-      'class' => 'jump_branch',
-      'path' => 'modules/jump_branch/jump_branch.php',
-      'tab' => true,
-    ),
-  ),
-  'layoutdefs' => 
-  array (
-  ),
-  'relationships' => 
-  array (
-  ),
-  'image_dir' => '<basepath>/icons',
-  'copy' => 
-  array (
-    0 => 
-    array (
-      'from' => '<basepath>/SugarModules/modules/jump_branch',
-      'to' => 'modules/jump_branch',
-    ),
-  ),
-  'language' => 
-  array (
-    0 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
-      'to_module' => 'application',
-      'language' => 'en_us',
-    ),
-  ),
-);
