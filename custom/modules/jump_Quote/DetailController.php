@@ -212,7 +212,7 @@ class DetailController extends SugarController
     public function getma($quote_id)
     {
         global $db;
-        $ma =0;
+        $maa =0;
         $sql1 = "SELECT
         jump_autofinancing_cstm.monthlyamortization2_c AS ma
         FROM
@@ -225,8 +225,8 @@ class DetailController extends SugarController
 
         while ($quote1 = $db->fetchByAssoc($result)) {
 
-            $ma = $quote1['ma'];
+            $maa = $quote1['ma'];
         }
-        return $ma;
+        return $maa;
     } 
 }

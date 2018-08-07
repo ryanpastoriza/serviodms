@@ -19,7 +19,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $up= $data['quote']['up'];
-                    echo "&#8369; ".number_format($up, 2, ',', ',');
+                    echo "&#8369; ".number_format($up, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
@@ -42,7 +42,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">&#8369; 
                     <?php 
                     $upd= $data['quote']['upd'];
-                    echo number_format($upd, 2, ',', ',');
+                    echo number_format($upd, 2, '.', ',');
                     ?>
                     </td>
                     
@@ -53,7 +53,7 @@
                     <?php 
                     $up= $data['quote']['up'];
                     $net = $up-$upd;
-                    echo "&#8369; ".number_format($net, 2, ',', ',');
+                    echo "&#8369; ".number_format($net, 2, '.', ',');
                     ?>
                     </td>
                     
@@ -63,7 +63,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $acc= $data['quote']['acc'];
-                    echo "&#8369; ".number_format($acc, 2, ',', ',');
+                    echo "&#8369; ".number_format($acc, 2, '.', ',');
                     ?>
                     </td>
                    
@@ -73,7 +73,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $acc= $data['quote']['ins'];
-                    echo "&#8369; ".number_format($acc, 2, ',', ',');
+                    echo "&#8369; ".number_format($acc, 2, '.', ',');
                     ?>
                     </td>
                     
@@ -88,7 +88,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $cha= $data['quote']['cha'];
-                    echo "&#8369; ".number_format($cha, 2, ',', ',');
+                    echo "&#8369; ".number_format($cha, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
@@ -98,7 +98,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $oc= $data['quote']['oc'];
-                    echo "&#8369; ".number_format($oc, 2, ',', ',');
+                    echo "&#8369; ".number_format($oc, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
@@ -108,7 +108,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $afdp= $data['quote']['dp'];
-                    echo "&#8369; ".number_format($afdp, 2, ',', ',');
+                    echo "&#8369; ".number_format($afdp, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
@@ -123,7 +123,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $afndp= $data['quote']['ndp'];
-                    echo "&#8369; ".number_format($afndp, 2, ',', ',');
+                    echo "&#8369; ".number_format($afndp, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
@@ -165,7 +165,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $taf= $data['quote']['taf'];
-                    echo "&#8369; ".number_format($taf, 2, ',', ',');
+                    echo "&#8369; ".number_format($taf, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
@@ -174,7 +174,7 @@
                     <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">
                     <?php 
                     $ma= $data['quote']['ma'];
-                    echo "&#8369; ".number_format($ma, 2, ',', ',');
+                    echo "&#8369; ".number_format($ma, 2, '.', ',');
                     ?>
                     </td>
                 </tr>
