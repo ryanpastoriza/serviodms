@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-26 01:15:54
+// created: 2018-08-01 02:27:50
 $mod_strings = array (
   'LBL_AMOUNTFINANCED' => 'Amount Financed',
   'LBL_CHATELFEE' => 'Chattel Fee',
@@ -13,4 +13,8 @@ $mod_strings = array (
   'LBL_BANK' => 'Bank',
   'LBL_SCHEME_JUMP_SCHEME_ID' => 'Scheme (related  ID)',
   'LBL_SCHEME' => 'Scheme',
+  'LBL_MONTHLYAMORTIZATION' => 'Monthly Amortization',
+  'LBL_MONTHLYAMORTIZATION2' => 'Monthly Amortization',
+  'LBL_FINANCINGTERM_JUMP_FINANCINGTERM_ID' => 'Financing Term (related  ID)',
+  'LBL_FINANCINGTERM' => 'Financing Term',
 );

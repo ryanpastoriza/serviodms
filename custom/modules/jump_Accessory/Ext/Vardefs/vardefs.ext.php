@@ -17,4 +17,10 @@ $dictionary['jump_Accessory']['fields']['name']['merge_filter']='disabled';
 $dictionary['jump_Accessory']['fields']['name']['unified_search']=false;
 
  
+
+ // created: 2018-07-31 01:04:32
+$dictionary['jump_Accessory']['fields']['price_c']['inline_edit']='1';
+$dictionary['jump_Accessory']['fields']['price_c']['labelValue']='Price';
+
+ 
 ?>

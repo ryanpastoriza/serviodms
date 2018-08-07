@@ -11,13 +11,6 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'PROMONAME_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_PROMONAME',
-    'width' => '10%',
-  ),
   'DISCOUNTNAME_C' => 
   array (
     'type' => 'varchar',

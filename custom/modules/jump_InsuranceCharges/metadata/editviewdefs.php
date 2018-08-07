@@ -56,6 +56,7 @@ array (
           0 => 
           array (
             'name' => 'insurancecoverage_c',
+            'studio' => 'visible',
             'label' => 'LBL_INSURANCECOVERAGE',
           ),
         ),

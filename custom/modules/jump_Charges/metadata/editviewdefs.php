@@ -44,6 +44,12 @@ array (
         ),
         1 => 
         array (
+          0 => 
+          array (
+            'name' => 'chargecode_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CHARGECODE',
+          ),
         ),
         2 => 
         array (
@@ -75,6 +81,7 @@ array (
           0 => 
           array (
             'name' => 'description2_c',
+            'studio' => 'visible',
             'label' => 'LBL_DESCRIPTION2',
           ),
         ),

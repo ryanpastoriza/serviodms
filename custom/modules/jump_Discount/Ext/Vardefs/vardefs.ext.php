@@ -97,9 +97,14 @@ $dictionary['jump_Discount']['fields']['discountname_c']['labelValue']='Discount
 
  
 
- // created: 2018-07-25 06:59:08
-$dictionary['jump_Discount']['fields']['promoname_c']['inline_edit']='1';
-$dictionary['jump_Discount']['fields']['promoname_c']['labelValue']='Promo Name';
+ // created: 2018-07-31 08:27:33
+$dictionary['jump_Discount']['fields']['jump_promo_id_c']['inline_edit']=1;
+
+ 
+
+ // created: 2018-07-31 08:27:33
+$dictionary['jump_Discount']['fields']['promoname2_c']['inline_edit']='1';
+$dictionary['jump_Discount']['fields']['promoname2_c']['labelValue']='Promo Name';
 
  
 ?>

@@ -125,11 +125,6 @@ array (
         ),
         6 => 
         array (
-          0 => '',
-          1 => '',
-        ),
-        7 => 
-        array (
           0 => 
           array (
             'name' => 'mobile_number_c',
@@ -141,7 +136,7 @@ array (
             'label' => 'LBL_BUSINESS_PHONE',
           ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
@@ -154,7 +149,7 @@ array (
             'label' => 'LBL_FAX',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -167,12 +162,12 @@ array (
             'label' => 'LBL_TIN',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => '',
           1 => '',
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -183,6 +178,43 @@ array (
           array (
             'name' => 'basic_address_c',
             'label' => 'LBL_BASIC_ADDRESS',
+          ),
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'country_c',
+            'studio' => 'visible',
+            'label' => 'LBL_COUNTRY',
+          ),
+          1 => 
+          array (
+            'name' => 'province_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROVINCE',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'jump_province_id_c',
+                'name' => 'province_c',
+                'region_c' => 'region_c',
+              ),
+            ),
+          ),
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'city_c',
+            'label' => 'LBL_CITY',
+          ),
+          1 => 
+          array (
+            'name' => 'region_c',
+            'label' => 'LBL_REGION',
           ),
         ),
       ),
@@ -197,28 +229,87 @@ array (
           ),
           1 => 
           array (
-            'name' => 'payment_mode_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PAYMENT_MODE',
+            'name' => 'inquiry_date_c',
+            'label' => 'LBL_INQUIRY_DATE',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'inquiry_date_c',
-            'label' => 'LBL_INQUIRY_DATE',
+            'name' => 'rating_c',
+            'studio' => 'visible',
+            'label' => 'LBL_RATING',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'lead_source_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LEAD_SOURCE',
+          ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'rating_c',
-            'label' => 'LBL_RATING',
+            'name' => 'base_model_c',
+            'studio' => 'visible',
+            'label' => 'LBL_BASE_MODEL',
+          ),
+          1 => 
+          array (
+            'name' => 'model_description_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MODEL_DESCRIPTION',
+            'displayParams' => 
+            array (
+              'field_to_name_array' => 
+              array (
+                'id' => 'aos_products_id_c',
+                'name' => 'model_description_c',
+                'body_type_c' => 'body_type_c',
+              ),
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'color_c',
+            'studio' => 'visible',
+            'label' => 'LBL_COLOR',
+          ),
+          1 => 
+          array (
+            'name' => 'body_type_c',
+            'label' => 'LBL_BODY_TYPE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sales_executive_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SALES_EXECUTIVE',
           ),
           1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'payment_mode_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PAYMENT_MODE',
+          ),
+          1 => 
+          array (
+            'name' => 'financing_term_c',
+            'studio' => 'visible',
+            'label' => 'LBL_FINANCING_TERM',
+          ),
         ),
       ),
       'lbl_editview_panel6' => 
