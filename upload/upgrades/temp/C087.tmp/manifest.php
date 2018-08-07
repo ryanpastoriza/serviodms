@@ -65,9 +65,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'branch',
-  'published_date' => '2018-08-06 06:14:48',
+  'published_date' => '2018-07-30 21:22:32',
   'type' => 'module',
-  'version' => 1533536092,
+  'version' => 1532985752,
   'remove_tables' => 'prompt',
 );
 
